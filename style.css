@@ -1,0 +1,425 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(#c9edff, white 5%);
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #2a3d9e 0%,
+    #5c0970 30%,
+    #0b66a3 66%,
+    #271c8a 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.3rem;
+  border-bottom: 0.5rem solid rgb(252, 202, 210);
+}
+
+nav img {
+  width: 15rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: auto 1rem;
+  vertical-align: middle;
+}
+
+.btn-login {
+  width: 8rem;
+  height: 3rem;
+  background-color: #c3accc;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 1rem;
+}
+.btn-signup {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: #8c4aa2;
+  color: #fff;
+  border: 0;
+  border-radius: 1rem;
+}
+
+.skill {
+  color: #3b34ab;
+}
+
+.section-1 {
+  display: flex;
+  width: 55rem;
+  margin: 1rem auto;
+  padding: 2rem 2rem 4rem 5rem;
+  background: rgb(221, 232, 230);
+  background: linear-gradient(
+    48deg,
+    rgba(221, 232, 230, 1) 29%,
+    rgba(144, 183, 199, 0.639093137254902) 66%,
+    rgba(163, 220, 232, 0.6110819327731092) 100%
+  );
+  border-radius: 0.5rem;
+}
+
+.girl-img {
+  width: 18rem;
+  height: 20rem;
+  overflow-y: hidden;
+  overflow: hidden;
+  padding: 0 50px;
+}
+
+.section-1 img {
+  width: 17rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.section-1-left h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #384247;
+}
+
+.section-1-left h5 {
+  font-size: 1rem;
+  color: #384247;
+  font-weight: 400;
+}
+.section-1-left h5 i {
+  color: #ffc700;
+}
+.section-1 button {
+  width: 10rem;
+  height: 4rem;
+  background-image: linear-gradient(to right, #352faa, #8271bb);
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 2rem;
+}
+.flex {
+  display: flex;
+}
+
+.overlay {
+  position: relative;
+  top: -2.5rem;
+  width: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  margin: auto;
+  color: #fff;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    90deg,
+    #4158d0 0%,
+    #aa10d0 30%,
+    #227bb7 66%,
+    #4d3bd0 100%
+  );
+}
+
+.section-2 {
+  margin: auto;
+  width: 70rem;
+  padding-bottom: 4rem;
+  background-color: #a9f3ec;
+  background-image: linear-gradient(62deg, #c2e7e4 0%, #eee3f3 100%);
+  border-radius: 0.4rem;
+}
+
+.section-2 h5 {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.heading-section {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  margin: 30px;
+}
+
+.curriculum-points {
+  margin: 0 5rem;
+}
+
+.download-btn {
+  width: 13rem;
+  height: 3rem;
+  background-color: #c3accc;
+  border: 0;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-btn i {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.section-2 .part-2 h4 {
+  padding: 1.2rem;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  width: 35rem;
+  border: 0.45rem solid #6b2492;
+  border-radius: 1rem;
+  background-color: #fff;
+  text-align: right;
+  margin-left: 3rem;
+}
+
+.play {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+.play i {
+  margin-right: 0.4rem;
+  font-size: 2rem;
+}
+
+.part-3 div {
+  text-align: center;
+  align-items: center;
+  padding-left: 2rem;
+  display: flex;
+}
+.part-3 h4 {
+  width: 4rem;
+  padding: 0.8rem 1.5rem;
+  border: 0.1rem solid black;
+}
+
+.part-3 .line {
+  display: block;
+  /*width: 5rem;*/
+  height: 0.1rem;
+  margin: 0 1rem;
+  background-color: #111;
+}
+.part-3 .line1 {
+  width: 5rem;
+}
+.part-3 .line2 {
+  width: 10rem;
+}
+.part-3 .line3 {
+  width: 15rem;
+}
+
+.part-3 h5 {
+  width: 25rem;
+  color: #fff;
+  text-align: left;
+  padding: 0.88rem 1.5rem;
+  margin: auto 0;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(
+    to right,
+    #352faa,
+    #6b2492,
+    #352faa,
+    #6b2492
+  );
+}
+
+.semi-circle {
+  margin-right: -8.5rem;
+  text-align: center;
+  float: right;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 7.5rem 7.5rem 0 0;
+  background-color: #fcddec;
+  transform: rotate(90deg);
+}
+
+.section-3 {
+  background-color: #dafef7;
+  margin-top: 5rem;
+
+  padding: 4rem 8rem;
+}
+
+.section-3 .coupon {
+  text-align: left;
+  position: relative;
+  background-color: lightblue;
+  padding: 2.5rem 0 2.5rem 7rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+.section-3 .coupon h4 {
+  margin-top: 0rem;
+}
+
+.section-3 h5 {
+  font-size: 1.2rem;
+}
+
+.section-3 button {
+  padding: 0.5rem 2rem;
+  color: 
+  border: 0;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
+}
+
+.section-4 {
+  position: relative;
+  width: 65rem;
+  padding: 2rem 8rem;
+  margin: 5rem auto;
+  background-image: linear-gradient(to bottom right, #e6f2f2, #fbf3f3, #fff);
+}
+
+.section-4 h5 {
+  font-size: 1.2rem;
+}
+
+.section-4 h6 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.section-5 {
+  width: 100%;
+}
+.section-5-inside {
+  position: relative;
+  width: 55rem;
+  height: 100%;
+  right: -40%;
+  top: -8rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0 1rem 4rem;
+  box-shadow: 0 0 0.3rem black;
+  background-color: rgba(190, 213, 226, 0.541);
+}
+
+.section-4-5 .flex i {
+  position: absolute;
+  right: 50%;
+}
+.content-square {
+  position: relative;
+  width: 30rem;
+  height: 100%;
+  border: 0.1rem solid transparent;
+  padding: 1rem;
+  border-image: linear-gradient(to right, #352faa, #6b2492, #352faa, #6b2492);
+  border-image-slice: 1;
+}
+.content-square h5,
+.content-square h6 {
+  font-size: 0.8rem;
+}
+.section-6 {
+  padding: 1rem 5rem;
+  background-image: linear-gradient(to bottom right, #e6f2f2, #fbf3f3, #fff);
+}
+
+.section-6 img {
+  width: 10rem;
+}
+.section-6 #arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  right: 0;
+  background-color: lightblue;
+  margin-top: -7rem;
+}
+
+.section-7 {
+  margin: 5rem auto;
+  width: 55rem;
+  background-color: #dbc0c0;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+}
+input[type="text"] {
+  width: 30rem;
+  height: 4rem;
+  margin: 0 3rem;
+  background-color: #a87878;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 2rem;
+}
+
+.section-7 form button {
+  width: 5rem;
+  padding: 0.5rem 1rem;
+  background-color: #8c8080;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+footer {
+  justify-content: space-evenly;
+  background-color: #111;
+  color: #fff;
+  position: relative;
+}
+text {
+  font-size: 0.15rem;
+  font-weight: 500;
+}
+textPath {
+  fill: #fff;
+}
+
+.course-img {
+  width: 30%;
+  height: 4.4rem;
+}
+
+.gap {
+  margin-left: 13px;
+  font-size: 30px;
+}
